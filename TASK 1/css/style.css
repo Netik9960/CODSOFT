@@ -5,7 +5,14 @@
   padding: 0px; 
 
 }
-
+.todoproject{
+  width: 200px;
+  
+}
+.todoproject1{
+  width: 200px;
+  height: 150px;
+}
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out; }
