@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #ffafbd, #ffc3a0, #ff99ac, #ff9999);
+    background: linear-gradient(135deg, #300326, #ff8b48, #ff99ac, #161aff);
     color: #333;
     text-align: center;
 }
@@ -22,7 +22,7 @@ header h1 {
     cursor: pointer; 
     font-family:  'Arial Narrow', Arial, sans-serif;
     /* border: #555 2px solid; */
-    background-color: #684040;
+    background-color: #684040 rgb(146, 146, 146);
 }
 nav ul {
     list-style: none;
@@ -32,7 +32,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 50px;
 }
 
 nav ul li a {
@@ -42,7 +42,11 @@ nav ul li a {
     text-align: center;
     
 }
-
+nav ul li a:hover{
+    color: #1e5bcc;
+    transition: 1s;
+    
+}
 main {
     padding: 50px 20px;
 }
